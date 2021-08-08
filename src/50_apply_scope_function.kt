@@ -1,4 +1,4 @@
-class Person {
+class PersonApply {
     var name: String = ""
     var age: Int = 0
 }
@@ -9,7 +9,7 @@ fun main() {
     Property 1: Refer to context object by using 'this'
     Property 2: The return value is the 'context object'  */
 
-    val person = Person().apply {
+    val person = PersonApply().apply {
         name = "Sriyank Siddhartha"
         age = 26
     }

@@ -1,5 +1,5 @@
 
-class Person {
+class PersonRun {
     var name: String = "Sriyank Siddhartha"
     var age: Int = 26
 }
@@ -13,7 +13,7 @@ fun main() {
     // 'run' is combination of 'with' and 'let'
     // If you want to operate on a Nullable object and avoid NullPointerException then use 'run'
 
-    val person: Person? = Person()
+    val person: PersonRun? = PersonRun()
 
     val bio = person?.run {
         println(name)

@@ -5,13 +5,13 @@
 * */
 fun main(args: Array<String>) {
 
-    var personObj = Person()
+    var personObj = PersonBasic()
     personObj.name = "Steve"
 
     print("The name of the person is ${personObj.name}")
 }
 
-class Person {
+class PersonBasic {
 
     var name: String = ""
 }
