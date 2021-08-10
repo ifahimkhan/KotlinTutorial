@@ -24,7 +24,6 @@ fun main(args: Array<String>) {
 
 fun mergeSort(array: Array<Int>): Array<Int> {
     if (array.size == 1) {
-        array[0]
         return array;
     } else {
         val splitIndex: Int = array.size / 2;
